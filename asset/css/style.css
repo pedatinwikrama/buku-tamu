@@ -1,0 +1,20 @@
+@font-face{
+  src: url('../fonts/gotham/GothamRounded-Book.otf');
+  font-family: 'g-book';
+}
+@font-face{
+  src: url('../fonts/gotham/GothamRounded-Light.otf');
+  font-family: 'g-light';
+}
+@font-face{
+  src: url('../fonts/gotham/GothamRounded-Medium.otf');
+  font-family: 'g-medium';
+}
+.g-book{font-family: 'g-book'!important;}
+.g-light{font-family: 'g-light'!important;}
+.g-medium{font-family: 'g-medium'!important;}
+
+nav .brand-logo{
+  padding-left: 20px;
+  text-transform: capitalize;
+}

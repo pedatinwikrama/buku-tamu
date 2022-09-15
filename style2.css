@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-color: #114c72;
+  }
+  
+  h1 {
+    color: #fff;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .img-logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 3px;
+    margin: auto;
+  }
+  
+  .img-logo img{
+    height: 100%;
+    width: 100%;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    object-fit: cover;
+  }
